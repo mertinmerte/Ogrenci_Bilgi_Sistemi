@@ -69,7 +69,7 @@ void fileprint()
    getch();
 
   }
-/******************* SORTING FILE ************************/
+
 void filesort()
   { int marks[100],rollno[100],x[100],n,i,j;
     char name[100][50];
@@ -111,7 +111,7 @@ void filesort()
   getch();
 
 }
-/************************* DATA USING ROLLNO***************************/
+
 void rollin()
 {   int i,roll,ch,mark,roll1;
     char nam[50];
@@ -169,7 +169,7 @@ void avgmarks()
  }
 
 
-/**************** FUNC. ENDS************************/
+
 int main()
 {
   int marks[100],rollno[100],x[100],n,i,j,roll,c,mark,roll1;
